@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    min-height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #efefef;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+.box-heading{
+    margin-top: 20px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.box-heading h2{
+    background: #f64c72;
+    color: #fff;
+    font-size: 24px;
+    padding-top: 5px;
+    height: 50px;
+}
+.card{
+    background-color: #fff;
+    width: 250px;
+    padding: 10px;
+    margin: 10px 0;
+}
+.card .img-container{
+    width: 100%;
+    height: 280px;
+    border: 1px dashed #ccc;
+    overflow: hidden;
+    position: relative;
+}
+.card .img-container img{
+    width: 100%;
+    height: 100%;
+}
+.card .img-container img:nth-child(2){
+    position: absolute;
+    top: -20px;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s all;
+}
+.card .img-container:hover img:nth-child(2){
+    opacity: 1;
+    top: 0;
+}
+/* .infobox .rating{
+    margin: 5px 0;
+}
+.infobox .rating img{
+    height: 18px;
+    width: 18px;
+} */
+.infobox .title{
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    /* padding: 0px 0; */
+    color: rgb(51, 51, 51);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.infobox .price{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    padding: 0px;
+    color: rgb(255, 68, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.infobox .buttongroup{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.infobox .buttongroup button{
+    border: 0;
+    outline: 0;
+    color: #fff;
+    padding: 7px 15px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.infobox .buttongroup button.buy{
+    background-color: #2f2fa2;
+}
+.infobox .buttongroup button.addtocart{
+    background-color: #f64c72;
+}
+.infobox .buttongroup button.buy:hover{
+    background-color: #0000ff;
+}
+.infobox .buttongroup button.addtocart:hover{
+    background-color: #ff0037;
+}

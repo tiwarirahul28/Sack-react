@@ -1,0 +1,23 @@
+.page-footer {
+    text-align: center;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--black);
+    margin-top: 30px;
+    color: #d62c51;
+  }
+  .page-footer h5 {
+    margin-bottom: 0;
+  }
+  .page-footer p {
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+  .page-footer span,
+  .page-footer a {
+    color: #2f2fa2;
+    font-size: 16px;
+  }
+  
