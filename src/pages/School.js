@@ -8,7 +8,7 @@ const School = () => {
         <>
         <div className="box-heading">
             <Title
-                heading="New Arrival"
+                heading="School/College Bag"
             />
             <div className="box">
                 {Sdata.map((value) =>{
