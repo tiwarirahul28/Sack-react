@@ -20,7 +20,7 @@ const School = () => {
                             price={value.price}
                         />
                     );
-                })};  
+                })}
             </div>
         </div>
         </>

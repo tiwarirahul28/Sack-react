@@ -159,16 +159,15 @@ const Sdata = [
     {
         img1: safari2,
         img2: safari3,
-        title:"Casual",
+        title:"Safari",
         price:"450"
     },
     {
         img1: Wesley,
         img2: Wesley1,
-        title:"Casual",
+        title:"Wesley",
         price:"350"
     },
-
     
 ];
 export default Sdata;

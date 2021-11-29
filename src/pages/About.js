@@ -1,8 +1,10 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import about from '../assets/images/school-bag.jpg'
-// import AboutItem from '../Components/AboutItem'
 import './about.css'
+import Title from '../Components/Title'
+import Box from '../Components/Box'
+
 const About = () => {
     return (
         <>
@@ -26,8 +28,15 @@ const About = () => {
                 className="img about-img"
                 />
             </section>
-            {/* <AboutItem/> */}
         </main>
+        {/* <div className="box-heading">
+            <Title
+                heading="Look At This Awesomeness"
+            />
+            <div className="box">
+                <Box/>
+            </div>
+        </div> */}
         </>
     )
 }
