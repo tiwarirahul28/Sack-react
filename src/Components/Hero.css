@@ -6,14 +6,9 @@
 
 .page {
     padding-top: 10px;
-    margin-bottom: 60px;
-    height: 100vh;
-    min-height: calc(100vh - (90px + 50px));
-}
-@media screen and (max-width: 768px){
-    .page{
-        height: 78vh;
-    }
+    margin-bottom: -160px;
+    height: 115vh;
+    /* min-height: calc(100vh - (90px + 50px)); */
 }
   
 .hero {
