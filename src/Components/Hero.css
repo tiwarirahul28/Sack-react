@@ -6,13 +6,13 @@
 
 .page {
     padding-top: 10px;
-    margin-bottom: -160px;
-    height: 115vh;
+    /* margin-bottom: -160px; */
+    /* height: 115vh; */
     /* min-height: calc(100vh - (90px + 50px)); */
 }
   
 .hero {
-    height: 85vh;
+    height: 70vh;
     position: relative;
     margin-bottom: 2rem;
     background: url("../assets/images/main.jpg") center/cover no-repeat;

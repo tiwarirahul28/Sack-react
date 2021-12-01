@@ -1,6 +1,6 @@
 .heading{
     color:transparent;
-    background:var(--gradient);
+    background: red;
     -webkit-background-clip: text;
     background-clip: text;
     padding: 0 10px;

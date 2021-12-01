@@ -9,14 +9,12 @@ const About = () => {
         <main className="page">
             <section className="about-page">
                 <article>
-                    <h2>I'm baby coloring book poke taxidermy</h2>
+                    <h2>Why Shop With Us?</h2>
                     <p>
-                        Taxidermy forage glossier letterpress heirloom before they sold out
-                        you probably haven't heard of them banh mi biodiesel chia.
+                       Your time is precious, and that's why we can't have you trying to hunt down the newest design bags when you could find them all in one place! 
                     </p>
                     <p>
-                        Taiyaki tumblr flexitarian jean shorts brunch, aesthetic salvia
-                        retro.
+                        Ever since S@ck inception in 2020, we're been bringing you the latest collections and exclusives from the most in demand design.
                     </p>
                     <NavLink to="/contact" className="btn">Contact</NavLink>
                 </article>

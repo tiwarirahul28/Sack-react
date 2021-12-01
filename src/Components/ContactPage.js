@@ -6,7 +6,7 @@ const ContactPage = () => {
     return (
         <>
         <div className="container">
-            <h1 className="heading">contact us</h1>
+            {/* <h1 className="heading">contact us</h1> */}
             <section className="contact">
                 <div className="image">
                     <img src={ContactImg} alt=""/>
