@@ -22,9 +22,10 @@
 .box-heading h2{
     background: #f64c72;
     color: #fff;
-    font-size: 24px;
-    padding-top: 5px;
-    height: 50px;
+    font-size: 20px;
+    padding-top: 3px;
+    height: 40px;
+    font-weight: normal;
 }
 .card{
     background-color: #fff;

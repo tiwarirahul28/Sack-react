@@ -8,7 +8,7 @@ const Bag = () => {
         <>
         <div className="box-heading">
             <Title
-                heading="New Arrival"
+                heading="Kid Bag"
             />
             <div className="box">
                 {Kdata.map((val) => {
