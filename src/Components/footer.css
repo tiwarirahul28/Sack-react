@@ -97,7 +97,7 @@ footer .end{
 }
 @media (max-width:640px){
     .items{
-    flex-basis: 80%;
+    flex-basis: 90%;
     margin: auto;
 }
 }
