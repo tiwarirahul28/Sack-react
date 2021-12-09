@@ -1,25 +1,26 @@
 import React from 'react'
+import './BoxTwo.css'
 
-const Box = ({title, price, img1, img2}) => {
+const BoxTwo = ({title, price, img1, img2}) => {
     return (
         <>
-        <div className="card">
-            <div className="img-container">
+        <div className="card-two">
+            <div className="img-container-two">
                 <img src={img1} alt="images"/>
                 <img src={img2} alt="images"/>
             </div>
-            <div className="infobox">
-                <div class="title">
+            <div className="infobox-two">
+                <div class="title-two">
                     {title} Bag 
                 </div>
-                <div className="price">
+                <div className="price-two">
                    Rs: {price}/-
                 </div>
-                <div className="buttongroup">
-                    <button className="buy">
+                <div className="buttongroup-two">
+                    <button className="buy-two">
                         Buy Now
                     </button>
-                    <button className="addtocart">
+                    <button className="addtocart-two">
                         Add To Cart 
                     </button>
                 </div>
@@ -29,4 +30,4 @@ const Box = ({title, price, img1, img2}) => {
     )
 }
 
-export default Box
+export default BoxTwo

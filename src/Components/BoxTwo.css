@@ -27,41 +27,41 @@
     height: 40px;
     font-weight: normal;
 }
-.card{
+.card-two{
     background-color: #fff;
-    width: 250px;
+    width: 320px;
     padding: 10px;
     margin: 10px 0;
 }
-.card .img-container{
+.card-two .img-container-two{
     width: 100%;
-    height: 350px;
+    height: 260px;
     border: 1px dashed #ccc;
     overflow: hidden;
     position: relative;
 }
-.card .img-container img{
+.card-two .img-container-two img{
     width: 100%;
     height: 100%;
     padding: 0px;
 }
 @media screen and (max-width: 768px) {
-    .card{
-        width: 300px;
+    .card-two{
+        width: 320px;
     }
-    .card .img-container{
+    .card-two .img-container-two{
         width: 100%;
-        height: 390px;
+        height: 260px;
     }
 }
-.card .img-container img:nth-child(2){
+.card-two .img-container-two img:nth-child(2){
     position: absolute;
     top: -20px;
     left: 0;
     opacity: 0;
     transition: 0.5s all;
 }
-.card .img-container:hover img:nth-child(2){
+.card-two .img-container-two:hover img:nth-child(2){
     opacity: 1;
     top: 0;
 }
@@ -73,7 +73,7 @@
     width: 18px;
 } */
 
-.infobox .title{
+.infobox-two .title-two{
     font-weight: 500;
     font-size: 14px;
     text-align: left;
@@ -81,7 +81,7 @@
     color: rgb(51, 51, 51);
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 }
-.infobox .price{
+.infobox-two .price-two{
     font-size: 12px;
     font-weight: 300;
     text-align: left;
@@ -89,12 +89,12 @@
     color: rgb(255, 68, 0);
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 }
-.infobox .buttongroup{
+.infobox-two .buttongroup-two{
     display: flex;
     justify-content: space-between;
     margin-top: 4px;
 }
-.infobox .buttongroup button{
+.infobox-two .buttongroup-two button{
     border: 0;
     outline: 0;
     color: #fff;
@@ -102,15 +102,15 @@
     font-size: 12px;
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 }
-.infobox .buttongroup button.buy{
+.infobox-two .buttongroup-two button.buy-two{
     background-color: #2f2fa2;
 }
-.infobox .buttongroup button.addtocart{
+.infobox-two .buttongroup-two button.addtocart-two{
     background-color: #f64c72;
 }
-.infobox .buttongroup button.buy:hover{
+.infobox-two .buttongroup-two button.buy-two:hover{
     background-color: #0000ff;
 }
-.infobox .buttongroup button.addtocart:hover{
+.infobox-two .buttongroup-two button.addtocart-two:hover{
     background-color: #ff0037;
 }

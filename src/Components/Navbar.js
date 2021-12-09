@@ -19,13 +19,14 @@ const Navbar = () => {
                     </button>
                 </div>
                 <div className={Show ? "nav-links show-links" : "nav-links"}>
-                    <NavLink to="/" exact className="nav-link" activeClassName="active-link" onClick={() => SetShow(false)}>Home</NavLink>
-                    <NavLink to="/bag" exact className="nav-link" activeClassName="active-link" onClick={() => SetShow(false)}>Kid</NavLink>
-                    <NavLink to="/school" exact className="nav-link" activeClassName="active-link" onClick={() => SetShow(false)}>School/College</NavLink>
-                    <NavLink to="/travel" exact className="nav-link" activeClassName="active-link" onClick={() => SetShow(false)}>Travel</NavLink>
-                    <NavLink to="/about" exact className="nav-link" activeClassName="active-link" onClick={() => SetShow(false)}>About</NavLink>
-                    <div class="nav-link contact-link" activeClassName="active-link" onClick={() => SetShow(false)}>
-                        <NavLink to="/contact" exact className="btn" activeClassName="active-link" onClick={() => SetShow(false)}>Contact</NavLink>
+                    <NavLink to="/" exact className="nav-link" onClick={() => SetShow(false)}>Home</NavLink>
+                    <NavLink to="/bag" exact className="nav-link" onClick={() => SetShow(false)}>Kid</NavLink>
+                    <NavLink to="/school" exact className="nav-link" onClick={() => SetShow(false)}>School/College</NavLink>
+                    <NavLink to="/travel" exact className="nav-link" onClick={() => SetShow(false)}>Travel</NavLink>
+                    <NavLink to="/gym" exact className="nav-link" onClick={() => SetShow(false)}>Gym</NavLink>
+                    <NavLink to="/about" exact className="nav-link" onClick={() => SetShow(false)}>About</NavLink>
+                    <div class="nav-link contact-link" onClick={() => SetShow(false)}>
+                        <NavLink to="/contact" exact className="btn" onClick={() => SetShow(false)}>Contact</NavLink>
                     </div>
                 </div>
             </div>

@@ -12,6 +12,7 @@ import {
   Redirect,
   Switch
 } from 'react-router-dom';
+import Gym from "./pages/Gym";
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
           </Route>
           <Route path="/travel" exact>
             <Travel/>
+          </Route>
+          <Route path="/gym" exact>
+            <Gym/>
           </Route>
           <Route path="/about" exact>
             <About/>

@@ -9,7 +9,7 @@ const Hero = () => {
                 <div className="hero-container">
                     <div className="hero-text">
                         <h1>S@ck</h1>
-                        <h4>If you love it, Buy it, otherwiswe else </h4>
+                        <h4>If you love it, Buy it, otherwiswe someone else will! </h4>
                     </div>
                 </div>
             </div>

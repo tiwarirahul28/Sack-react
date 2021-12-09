@@ -262,7 +262,7 @@
     
 
   .show-links {
-    height: 350px;
+    height: 360px;
   }
 
   .nav-link {
@@ -272,7 +272,7 @@
     text-transform: capitalize;
     color: black;
     letter-spacing: var(--letterSpacing);
-    padding: 16px 0;
+    padding: 12px 0;
     border-top: 1px solid var(--grey-500);
     transition: var(--transition);
   }
@@ -282,7 +282,7 @@
   }
     
   .contact-link a {
-      padding: 4px 10px;
+      padding: 4px 8px;
   }
     
 @media screen and (min-width: 992px) {
