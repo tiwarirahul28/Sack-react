@@ -11,12 +11,12 @@ const ContactPage = () => {
                 <div className="image">
                     <img src={ContactImg} alt=""/>
                 </div>
-                <form className="form1" action="">
+                <form className="form1" action="" method='POST'>
                     <div className="inputBox">
-                        <input type="text" placeholder="name"/>
-                        <input type="email" placeholder="email"/>
+                        <input autoComplete='off' type="name" placeholder=" Enter Your Name"/>
+                        <input autoComplete='off' type="email" placeholder=" Enter Your Email"/>
                     </div>
-                    <input type="text" placeholder="subject" className="box"/>
+                    <input autoComplete='off' type="subject" placeholder="subject" className="box "/>
                     <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
                     <input type="submit" className="btn" value="send"/>
                 </form>
