@@ -30,18 +30,6 @@ const Item = () => {
             />
             <div className="box">
             <Box
-                img1={PolyesterHero}
-                img2={PolyesterHero1}
-                title="Polyester Hero"
-                price="399"
-            />
-            <Box
-                img1={PolyesterHeroBlue}
-                img2={PolyesterHeroBlue1}
-                title="Polyester Hero Blue"
-                price="399"
-            />
-            <Box
                 img1={SkybagsMarvel}
                 img2={SkybagsMarvel1}
                 title="Skybags Marvel"
