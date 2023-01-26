@@ -2,10 +2,6 @@ import React from 'react'
 import './item.css'
 import Box from './Box'
 import Title from './Title'
-import PolyesterHero from '../assets/frontpage/one.jpg';
-import PolyesterHero1 from '../assets/frontpage/two.jpg';
-import PolyesterHeroBlue from '../assets/frontpage/four.jpg';
-import PolyesterHeroBlue1 from '../assets/frontpage/three.jpg';
 import SkybagsMarvel from '../assets/bag/SkybagsMarvel.jpg';
 import SkybagsMarvel1 from '../assets/bag/SkybagsMarvel1.jpg';
 import CaptainAmericaShield from '../assets/schoolbag/CaptainAmericaShield.jpeg';
